@@ -10,13 +10,13 @@
 <body>
 	<header>
 		<a href="#">
-			<img src="img/logo.png" width="1071" height="297" alt="логотип Школы Трафика">
+			<img src="img/logo.png" width="109" height="30" alt="логотип Школы Трафика">
 		</a>
 	</header>
 	<main>
 		<h1>Новый курс от Школы Трафика</h1>
 		<section>
-			<h2><span>Видеокурс </span>«Вступление в товарный арбитраж трафика»</h2>
+			<h2>Видеокурс <span>«Вступление в товарный арбитраж трафика»</span></h2>
 			<img src="img/video-course.png" width="859" height="757" alt="Скриншоты личного кабинета курса">
 			<p>Получи бесплатный видеокурс по товарному арбитражу для новичков</p>
 			<a href="#">Скачать видео курс</a>
@@ -35,7 +35,7 @@
 			<h2>Автор Видеокурса <span>Артур Гарнаев</span></h2>
 			<img src="img/photo.jpg" width="369" height="476" alt="Артур Гарнаев">
 			<p>Арбитражник, рекламодатель, интернет-предприниматель</p>
-			<p>Прокрутил рекламы более чем на 50 000 $ Ежедневно продаю более 150 физических товаров при том, что трафик на рекламу лью сам!</p>
+			<p>Прокрутил рекламы более чем на 50 000 $. Ежедневно продаю более 150 физических товаров при том, что трафик на рекламу лью сам!</p>
 		</section>
 
 		<section>
@@ -59,7 +59,7 @@
 				<time datetime="2016-03-20">20.03.2016</time>
 			</blockquote>
 			<button type="button">Назад</button>
-			<button type="button">Вперед</button>
+			<button type="button">Вперёд</button>
 		</section>
 
 		<section class="bonuses">
@@ -96,30 +96,34 @@
 			<h2>Скачай видеокурс сейчас <span>и получи крутые бонусы совершенно бесплатно!</span></h2>
 			<p>Предложение ограничено! Успей!</p>
 
-			<dl>
-				<dt>дней</dt>
-				<dd>0</dd>
-
-				<dt>часов</dt>
-				<dd>9</dd>
-
-				<dt>минут</dt>
-				<dd>34</dd>
-
-				<dt>секунд</dt>
-				<dd>11</dd>
-			</dl>
+			<div class="countdown">
+				<div class="countdown-number">
+					<span class="days countdown-time">0</span>
+					<span class="countdown-text">дней</span>
+				</div>
+				<div class="countdown-number">
+					<span class="hours countdown-time">9</span>
+					<span class="countdown-text">часов</span>
+				</div>
+				<div class="countdown-number">
+					<span class="minutes countdown-time">34</span>
+					<span class="countdown-text">минут</span>
+				</div>
+				<div class="countdown-number">
+					<span class="seconds countdown-time">11</span>
+					<span class="countdown-text">секунд</span>
+				</div>
+			</div>
 
 			<form action="#" method="post">
 				<label for="download-form-name">Введите ваше имя</label>
-				<input type="text" name="download-form-name" id="download-form-name" placeholder="Введите ваше имя">
+				<input type="text" name="download-form-name" id="download-form-name" placeholder="введите ваше имя">
 
-				<label for="download-form-email">Введите ваше имя</label>
-				<input type="email" name="download-form-email" id="download-form-email" placeholder="Введите ваш e-mail">
-				<label>
-					<input type="checkbox" name="agreement" checked>
-					Даю согласие на обработку моих персональных данных
-				</label>
+				<label for="download-form-email">Введите ваш e-mail</label>
+				<input type="email" name="download-form-email" id="download-form-email" placeholder="введите ваш e-mail">
+
+				<input type="checkbox" name="download-form-agreement" id="download-form-agreement" checked>
+				<label for="download-form-agreement">Даю согласие на обработку моих персональных данных</label>
 
 				<button type="submit">Скачать видео курс</button>
 			</form>
@@ -127,7 +131,7 @@
 	</main>
 
 	<footer>
-		<p><a href="#">«Школа трафика»</a> - школа товарного арбитража трафика Артура Гарнаева © 2016
+		<p><span>«Школа трафика»</span> - школа товарного арбитража трафика Артура Гарнаева © 2016
 		</p>
 	</footer>
 </body>
